@@ -1,0 +1,119 @@
+.footer {
+  background: -webkit-gradient(linear,left top, left bottom,from(rgba(6, 30, 51, 0.45)),to(rgba(6, 30, 51, 0.45))), url('../../images/erik-ringsmuth-1357014-unsplash.jpg') no-repeat 50% 50% / cover;
+  background: -o-linear-gradient(rgba(6, 30, 51, 0.45),rgba(6, 30, 51, 0.45)), url('../../images/erik-ringsmuth-1357014-unsplash.jpg') no-repeat 50% 50% / cover;
+  background: linear-gradient(rgba(6, 30, 51, 0.45),rgba(6, 30, 51, 0.45)), url('../../images/erik-ringsmuth-1357014-unsplash.jpg') no-repeat 50% 50% / cover;
+  padding: 60px 0;
+}
+
+
+.footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.form-title{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.contacts-title{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.company-location {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #F2F7FF;
+  padding-left: 26px;
+  margin-bottom: 10px;
+  position: relative;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+.company-location::before {
+  position: absolute;
+  left: 0;
+}
+.company-location:hover {
+  color: #FF0032;
+}
+
+.footer-phone{
+  font-size: 14px;
+  font-weight: 500;
+  color: #F2F7FF;
+}
+.social-title {
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fa-instagram {
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-right: 15px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+
+}
+.fa-instagram:hover{
+  color: #E1306C;
+}
+
+.fa-twitter-square {
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-right: 15px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+.fa-twitter-square:hover{
+  color: #00aced;
+}
+
+.fa-facebook-square {
+  font-size: 24px;
+  color: #FFFFFF;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+.fa-facebook-square:hover{
+  color: #3b5998;
+}
+
+.footer-logo {
+  font-size: 28px;
+  font-weight: 900;
+  color: #FFFFFF;
+}

@@ -1,0 +1,60 @@
+.form-select-tours {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form-select-tours > .form-group{
+  width: 49%;
+  margin-bottom: 20px;
+}
+.form-select-tours > .main-btn {
+  margin-top: 40px;
+}
+.label{
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #888EA0;
+  margin-bottom: 10px;
+}
+.select {
+  padding: 16px 24px;
+  border-radius: 999px;
+  border: 0;
+  width: 100%;
+  background-color: #F2F7FF;
+  font-weight: 600;
+  color: #373F55;
+}
+
+
+.form-subscribe > .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+
+.footer-input-subscribe {
+  display: block;
+  font-weight: 600;
+  width: 300px;
+  padding: 16px 24px;
+  border-radius: 999px;
+  border: 0;
+  margin-top: 10px;
+}

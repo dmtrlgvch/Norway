@@ -1,0 +1,129 @@
+@media screen and (min-width: 576px) {
+  .main-btn {
+    padding: 16px 80px;
+  }
+
+  .header-phone {
+    display: flex;
+  }
+
+  .form-subscribe > .form-group {
+    justify-content: center;
+  }
+  .label-subscribe {
+    margin-bottom: 0;
+  }
+  .footer-input-subscribe {
+    margin: 10px 15px 0 0;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+  .header {
+    padding: 30px 0;
+  }
+
+  .header-top {
+    margin-bottom: 30px;
+  }
+
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-menu__btn {
+    display: none;
+  }
+
+  .nav-menu__box {
+    position: static;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 1;
+    padding: 0;
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+  .nav-menu__item {
+    padding: 0 10px;
+    transform: translateY(0);
+  }
+
+  .section-hero>.container>.section-title {
+    font-size: 90px;
+    line-height: 100px;
+  }
+
+  .section-search {
+    padding: 100px 0 300px 0;
+  }
+
+  .section-title {
+    font-size: 52px;
+    line-height: 64px;
+  }
+
+  .form-select-tours > .form-group {
+    width: 24%;
+  }
+  .grid-daily>.grid-item{
+    width: calc(100% / 12 * 4 - 30px);
+  }
+  .grid-about > .grid-item {
+    width: calc(100% / 12 * 6 - 30px);
+  }
+  .grid-about > .grid-item:first-child {
+    margin-bottom: 15px;
+  }
+  .grid-about > .grid-item:last-child {
+    align-self: center;
+  }
+  .grid-footer > .grid-item{
+    width: calc(100% / 12 * 4 - 30px);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .grid-daily>.grid-item{
+    width: calc(100% / 12 * 3 - 30px);
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .container {
+    padding: 0;
+  }
+  .nav-menu__item {
+    font-size: 18px;
+    padding: 0 15px;
+  }
+
+  .section-hero {
+    padding: 200px 0;
+  }
+
+  .section-search {
+    padding: 90px 0 535px 0;
+  }
+  .section-daily{
+    padding: 90px 0 535px 0;
+  }
+
+  .card-popular > a > .card-body {
+    padding: 30px 20px 10px 20px;
+  }
+  .card-popular > a > .card-bottom {
+    padding: 0 20px 30px 20px;
+  }
+}
+

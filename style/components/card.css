@@ -1,0 +1,172 @@
+.fa-star {
+  color: #F6A326;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%; 
+  border-radius: 40px;
+  overflow: hidden;
+  -webkit-box-shadow: 4px 4px 15px rgba(10, 34, 67, 0.1);
+          box-shadow: 4px 4px 15px rgba(10, 34, 67, 0.1);
+}
+.card-img {
+  height: 200px;
+}
+
+.card > a {
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.card-body {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: #fff;
+}
+.card-raiting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+
+}
+.raiting-star {
+  margin-right: 10px;
+}
+.card-reviews {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: normal;
+  color: #888EA0;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #373F55;
+  margin-bottom: 10px;
+}
+.card-description {
+  font-size: 16px;
+  line-height: 20px;
+  color: #464649;
+  font-weight: normal;
+}
+.card-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  background-color: #fff;
+}
+.card-duration {
+  font-size: 13px;
+  font-weight: 500;
+  color: #888EA0;
+}
+.card-price {
+  font-size: 30px;
+  font-weight: 600;
+  color: #373F55;
+}
+
+
+
+
+.card-popular > a > .card-body {
+  padding: 10px;
+}
+.card-popular > a > .card-bottom {
+  padding: 0 10px 20px 10px;
+}
+
+.card-daily > a > .card-body {
+  padding: 20px 20px 10px 20px;
+}
+.card-daily > a > .card-bottom {
+  padding: 0 20px 30px 20px;
+}
+
+.card-about {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.card-review > .card-body {
+  padding: 0 20px 25px 20px;
+}
+.card-review > .card-bottom {
+  padding: 0 20px 20px 20px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.card-review > .card-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #fff;
+  padding: 20px;
+}
+.author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; 
+}
+.user-location {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #888EA0;
+}
+
+.review-more {
+  font-size: 14px;
+  font-weight: 600;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #0F2D47;
+}
+.card-about{
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.userpic {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  font-weight: bold;
+}
